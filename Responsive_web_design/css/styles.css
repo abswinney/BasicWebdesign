@@ -1,0 +1,140 @@
+body {
+    background-color: #F22816;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#container {
+    background-color: #E8E8E8;
+}
+
+nav{
+    background-color: #C3300F;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav li {
+    display: block;
+}
+
+nav li a{
+    display: block;
+    height: 30px;
+    line-height: 20px;
+    background-color: #1F54BF;
+    color: #DADADA;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+nav li a:hover {
+    background-color: #DADADA;
+    color: black;
+    border-color: black;
+}
+
+main {
+    padding: 10px;
+}
+
+.col {
+    padding: 10px
+}
+
+footer {
+    background-color: #C3300F;
+    color: #DADADA;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    height: 15px;
+    line-height: 10px;
+    background-color: black;
+    color: #E8E8E8;
+    text-decoration: gray;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+
+table {
+    border: #1F54BF;
+}
+
+tr,
+td{
+    border:4px solid #C3300F;
+}
+@media (min-width: 786px) {
+    nav li {
+        display: inline-block;
+
+    }
+    nav li a{
+        width: 150px;
+        border: 0;
+        border-radius: 10px;
+        border: 2px solid #C3300F
+    }
+    main{
+        display: flex;
+    }
+    section, aside {
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid #F22816;
+        border-radius: 10px;
+    }
+    aside{
+        width: 70%;
+    }
+
+    .col img{
+        width: 50%;
+    }
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .single_page {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+    .col {
+        border: 2px solid #1F54BF;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+}
