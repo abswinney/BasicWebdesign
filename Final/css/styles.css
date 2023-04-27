@@ -1,5 +1,6 @@
 body {
     background-color: #E9CBA5;
+    align-content: center;
 }
 
 img{
@@ -58,7 +59,7 @@ main {
 }
 
 .col {
-    padding: auto
+    padding: 10px
 }
 
 footer {
