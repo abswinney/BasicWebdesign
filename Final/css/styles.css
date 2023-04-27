@@ -1,0 +1,155 @@
+body {
+    background-color: #E9CBA5;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+#container {
+    background-color: #E8E8E8;
+}
+
+nav{
+    background-color: #C99C58;
+    padding: 2px 0;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav li {
+    display: block;
+}
+
+nav li a{
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    height: 30px;
+    line-height: 20px;
+    background-color: #946E3D;
+    color: #f3c701;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 8px;
+}
+
+nav li a:hover {
+    background-color: #ddbd94;
+    color: #614016;
+    border-color: #664316;
+}
+
+main {
+    padding: 10px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 1.2em;
+    color: #462e0f;
+    text-align: center;
+}
+
+.col {
+    padding: 10px
+}
+
+footer {
+    background-color: #86735a;
+    color: #DADADA;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+.button {
+    
+    display: block;
+    width: 200px;
+    height: 15px;
+    line-height: 15px;
+    background-color: #664316;
+    color: #f3c701;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: gray;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px ridge #462e0f;
+    border-radius: 5px;
+}
+
+table {
+    border: #664316;
+}
+
+tr,
+td{
+    border:1px ridge #664316;
+}
+@media (min-width: 786px) {
+    nav li {
+        display: inline-block;
+
+    }
+    nav li a{
+        width: 150px;
+        border: 0;
+        border-radius: 10px;
+        border: 2px ridge #462e0f
+    }
+    main{
+        display: flex;
+        background-color: #f5f1e3;
+
+    }
+    section, aside{
+        margin: 10px;
+        padding: 10px;
+        border: 2px ridge #462e0f;
+        border-radius: 10px;
+    }
+   aside{
+    width: 100%;
+   }
+    .col img{
+        width: 50%;
+    }
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .single_page {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    #container {
+        display: inline-block;
+        width: 65% auto;
+        margin: 10px auto;
+    }
+
+    #lower_area {
+        display: flex;
+        background-color: #86735a;
+    }
+    .col {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.3em;
+        background-color: #C99C58;
+        border: 1px ridge #462e0f;
+        padding: 10px auto;
+        margin: 10px auto;
+        border-radius: 5%;
+    }
+}
