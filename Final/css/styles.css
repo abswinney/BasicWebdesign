@@ -135,7 +135,7 @@ td{
 @media (min-width: 1024px) {
     #container {
         display: inline-block;
-        width: 65% auto;
+        width: 65%;
         margin: 10px auto;
     }
 
@@ -148,7 +148,7 @@ td{
         font-size: 1.3em;
         background-color: #C99C58;
         border: 1px ridge #462e0f;
-        padding: 10px auto;
+        padding: 10px;
         margin: 10px auto;
         border-radius: 5%;
     }
