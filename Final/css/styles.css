@@ -1,11 +1,10 @@
 body {
     background-color: #E9CBA5;
-    align-content: center;
-}
+    }
 
 img{
     display: block;
-    margin: 10px auto;
+    margin: 0px auto;
     width: 100%;
 }
 
@@ -51,11 +50,11 @@ nav li a:hover {
 }
 
 main {
-    padding: 10px;
     font-family: 'Edu TAS Beginner', cursive;
     font-size: 1.2em;
     color: #462e0f;
     text-align: center;
+    padding: 10px;
 }
 
 .col {
@@ -71,14 +70,13 @@ footer {
 }
 
 .button {
-    
+    font-family: 'Kaushan Script', cursive;
     display: block;
     width: 200px;
     height: 15px;
     line-height: 15px;
     background-color: #664316;
     color: #f3c701;
-    font-family: 'Kaushan Script', cursive;
     text-decoration: gray;
     margin-top: 10px;
     padding: 10px;
@@ -112,13 +110,16 @@ td{
 
     }
     section, aside{
-        margin: 5px;
+        margin: 20px;
         padding: 2px;
         border: 2px ridge #462e0f;
         border-radius: 10px;
     }
+    section {
+        width: 80%
+    }
    aside{
-    width: 50%;
+        width: 20%;
    }
     .col img{
         width: 50%;
@@ -135,7 +136,6 @@ td{
 
 @media (min-width: 1024px) {
     #container {
-        display: inline-block;
         width: 65%;
         margin: auto;
     }
